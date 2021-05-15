@@ -1,5 +1,7 @@
 package jp.co.aforce.test;
 
+import java.util.Random;
+
 public class PracticeTest2 {
 	public static void main(String args[]) {
 		int x=10;
@@ -14,11 +16,28 @@ public class PracticeTest2 {
 		int age =21;
 					
 		
-				
+
+		Random rand = new Random();
+	    int r = rand.nextInt(100) ;
+	    if(age >=r ) {
+	      System.out.println(r+"歳で私の方が年上です");
+	    }  else if(age ==r ) {
+	      System.out.println(r+"歳で私と同い年です");
+	    }  else if(age <=r ) {
+	      System.out.println(r+"歳で私より年下です");
+	      
+	   
+	      
+	  }
 	}
+	    
+}
+
+
+	  
 
 	
-	    }
+	    
 	
 
 
