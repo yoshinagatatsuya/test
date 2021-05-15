@@ -20,11 +20,11 @@ public class PracticeTest2 {
 		Random rand = new Random();
 	    int r = rand.nextInt(100) ;
 	    if(age >=r ) {
-	      System.out.println(r+"歳で私の方が年上です");
+	      System.out.println(r+"歳で私の方が下です");
 	    }  else if(age ==r ) {
 	      System.out.println(r+"歳で私と同い年です");
 	    }  else if(age <=r ) {
-	      System.out.println(r+"歳で私より年下です");
+	      System.out.println(r+"歳で私より年上です");
 	      
 	   
 	      
